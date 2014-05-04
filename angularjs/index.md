@@ -112,6 +112,16 @@
     		      partial1.html
     		      partial2.html
 
+		test/
+  			protractor-conf.js
+  			e2e/
+    				scenarios.js
+  			karma.conf.js
+  			unit/
+    				controllersSpec.js
+    				directivessSpec.js
+    				filtersSpec.js
+    				servicesSpec.js
 
 ---
 
@@ -345,8 +355,8 @@ ng-repeat
 
 ###	Neden?
 
--	Sınıflar modülün içinde tanımlanmak yerine implemente ettikleri arayüz sınıfı
-	tipinde bir nesne parametre olarak kullanılırsa projenin ihtiyacına göre değişecek
+-	Sınıflar modülün içinde tanımlanmak yerine, implemente ettikleri arayüz sınıfı
+	tipinde bir nesne parametre olarak kullanılırsa, projenin ihtiyacına göre değişecek
 	sınıf kullanımı modülün derdi olmaktan çıkar
 
 -	İşimizi görecek herhangi bir nesne modülümüze kolaylıkla enjekte edilebilir
@@ -365,5 +375,10 @@ ng-repeat
 		http://slidedeck.io/
 
 		http://www.bennadel.com/
+		
+		http://www.google.com/
 
+		http://www.github.com/
+
+		http://sporto.github.io/
 ---
