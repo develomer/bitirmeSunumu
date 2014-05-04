@@ -169,8 +169,9 @@
 
 ---
 
-##    Hadi biraz daha işin içine girelim
-####    Örnek Bir Kod Parçası
+## Hadi biraz daha işin içine girelim
+
+-	Örnek Bir Kod Parçası
 
 		<html ng-app>
 		<head>
@@ -186,7 +187,8 @@
 
 ---
 
-##    Neler Oluyor Orada
+
+##    Neler Oluyor Orada?
 
 		-	<html ng-app>
 			-	Browser' a AngularJS kullanıldığını belirt		
@@ -203,72 +205,90 @@
 
 ---
 
-##    Directive
+#    Directive
 
-###	Nedir?
+##
 
--	Özel html elementlerini oluşturma ve DOM işlemede kullanılır
+Nedir?
+:   
 
--	DOM elemanlarına özel davranışlar eklenmesini sağlar
+	-	Özel html elementlerini oluşturma ve DOM işlemede kullanılır
 
-###	Neden Kullanılır?
+	-	DOM elemanlarına özel davranışlar eklenmesini sağlar
 
--	Kendi özel bileşenlerimizi oluşturmak istediğimizde kullanırız
 
--	Ön tanımlı bir çok directive var
+Neden Kullanılır?
+:   
+	-	Kendi özel bileşenlerimizi oluşturmak istediğimizde kullanırız
 
--	ng ile başlar
+	-	Ön tanımlı bir çok directive var
 
--	Gerçekleştirimi ngRoute şeklinde olan bir directive ng-route şeklinde kullanılır
+	-	ng ile başlar
 
--	Tüm directive' ler için ---> [buradan](https://docs.angularjs.org/api/)
+	-	Gerçekleştirimi ngRoute şeklinde olan bir directive ng-route şeklinde kullanılır
 
+	-	Tüm directive' ler için ---> [buradan](https://docs.angularjs.org/api/)
 
 ---
 
-##	Controller
+#	Controller
 
-###	Nedir?
+##	Nedir?
+:   
 
--	Angular' da scope' u çoğaltmak için kullanılan constructor fonksiyon
+	-	Angular' da scope' u çoğaltmak için kullanılan constructor fonksiyon
 
--	Kullan:
+---
 
-	-	$scope nesnesinin başlangıç durumunu oluşturma
-
-	-	$scope nesnesine davranış ekleme
-
--	Kullanma:
+## Nerde Kullanmalı / Kullanmamalı
 
 
-	-	DOM üzerinde oynama yapma
+Kullan
+:   
 
-	-	Girişleri düzenleme(bunun yerine angular form control kullan)
+	*   $scope nesnesinin başlangıç durumunu oluşturma
 
-	-	Çıkışları filtreleme(bunun yerine angular-filters kullan)
+	*   $scope nesnesine davranış ekleme
 
-	-	Controller arasında durum ya da kod paylaşımı yapma(bunun yerine angular services kullan)
+Kullanma
+:   
 
-	-	Diğer componentlerin yaşam döngüsünü yönetme
+	*   DOM üzerinde oynama yapma
+
+	*   Girişleri düzenleme(angular form control kullan
+
+	*   Çıkışları filtreleme(angular-filters kullan)
+
+	*   Controller arasında durum ya da kod paylaşımı yapma(angular services kullan)
+
+	*   Diğer componentlerin yaşam döngüsünü yönetme
 
 ---
 
 ##    Başka Neler Var?
 
--	ng-controller:
+ng-controller
+:   
 	-	ilgili kısmın hangi controller taraından yönetileceği belirtlilir
 	-	bir html üzerinde birden fazla controller olabilir
 	-	İç içe controller kullanımı yapılabilir
 
--	ng-class:
+ng-class
+:   
 	-	ilgili kısma class ataması yapar
 	-	bu konuda koşul koymamıza olanak verir
 
--	ng-click:
+---
+
+##    Başka Neler Var?
+
+ng-click
+:   
 	-	ilgili elemente click event' ı atamamızı sağlar
 	-	click event' ı için hangi fonksiyonun çağırılacağı burada belirtilir
 
--	ng-repeat:
+ng-repeat
+:   
 	-	bir liste üzerinde dönüp işlem yapmamızı sağlar
 
 ---
@@ -285,9 +305,9 @@
 
 ---
 
-##    Services
+#    Services
 
-###    Nedir?
+##	Nedir?
 
 -	AngularJS servisleri DI kullanarak bağlantıları oluşturan yerleşik nesnelerdir
 
@@ -295,22 +315,24 @@
 	-	Tembel Yapı - Angular servisi sadece uygulama component' i
 		ona ihtiyaç duyduğunda başlatır
 
-	-	Her component angular factory tarafından referans gösterilen
+	-	Tekillik - Her component angular factory tarafından referans gösterilen
 		sadece bir servise bağlıdır 
 
 -	Module içinde $provide kullanılarakta servis oluşturulabilir
 
 ---
 
-##    Dependency Injection
+#    Dependency Injection
 
--	Genel olarak nesnein bağımlılıklarını tutabilmesi için kullanılan üç yol var
+##	Nedir?
 
-	1	Dahili olarak tanımlama
+-	Genel olarak nesnenin bağımlılıklarını tutabilmesi için kullanılan üç yol var
 
-	2	Global olarak tanımlama
+	1	-	Dahili olarak tanımlama
 
-	3	İhtiyacımız olan yerde kullanma
+	2	-	Global olarak tanımlama
+
+	3	-	İhtiyacımız olan yerde kullanma
 
 -	AngularJS' te 3. yöntem kullanılır
 
@@ -331,11 +353,8 @@
 
 ---
 
-##    SON
+#	Teşekkür Ederiz
 
-	Teşekkür Ederiz
-
----
 
 ##    Kaynakça
 		
