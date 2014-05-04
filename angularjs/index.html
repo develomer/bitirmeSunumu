@@ -2018,7 +2018,7 @@ div.slide table:not(.highlighttable) tr td:first-child {
             <section><ul>
 <li>
 <p>Seed github adresinden local bilgisayara kopyala</p>
-<pre><code>$git clone https://github.com/angular/angular-seed.git
+<pre><code>$ git clone https://github.com/angular/angular-seed.git
 </code></pre>
 </li>
 </ul></section>
@@ -2054,12 +2054,12 @@ div.slide table:not(.highlighttable) tr td:first-child {
             <section><ul>
 <li>
 <p>Kurulum i&ccedil;in seed dizinine ge&ccedil;</p>
-<pre><code>$npm install
+<pre><code>$ npm install
 </code></pre>
 </li>
 <li>
 <p>&Ccedil;al&#305;&#351;t&#305;r</p>
-<pre><code>$npm start
+<pre><code>$ npm start
 </code></pre>
 </li>
 </ul></section>
@@ -2368,9 +2368,9 @@ div.slide table:not(.highlighttable) tr td:first-child {
             <header><h2>Hadi biraz daha i&#351;in i&ccedil;ine girelim</h2></header>
             
             
-            <section><ul>
-<li>
-<p>&Ouml;rnek Bir Kod Par&ccedil;as&#305;</p>
+            <section><dl>
+<dt>&Ouml;rnek Bir Kod Par&ccedil;as&#305;</dt>
+<dd>
 <pre><code>&lt;html ng-app&gt;
 &lt;head&gt;
     &lt;script src="https://ajax.googleapis.com/ajax/libs/
@@ -2383,8 +2383,8 @@ div.slide table:not(.highlighttable) tr td:first-child {
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-</li>
-</ul></section>
+</dd>
+</dl></section>
             
           </div>
           <div class="presenter_notes">
@@ -2414,13 +2414,25 @@ div.slide table:not(.highlighttable) tr td:first-child {
             <header><h2>Neler Oluyor Orada?</h2></header>
             
             
-            <section><pre><code>    -   &lt;html ng-app&gt;
-        -   Browser' a AngularJS kullan&#305;ld&#305;&#287;&#305;n&#305; belirt      
-        -   Otomatik olarak AngularJS' &#305; ba&#351;lat
-
-    -   &lt;div ng-model&gt;
-        -   De&#287;i&#351;ken tan&#305;mlamam&#305;z&#305; ve de&#287;er ile ili&#351;kilendirilmesini sa&#287;lar
-</code></pre></section>
+            <section><dl>
+<dt>ng-app</dt>
+<dd>
+<ul>
+<li>
+<p>Browser&rsquo; a AngularJS kullan&#305;ld&#305;&#287;&#305;n&#305; belirt</p>
+</li>
+<li>
+<p>Otomatik olarak AngularJS&rsquo; &#305; ba&#351;lat</p>
+</li>
+</ul>
+</dd>
+<dt>ng-model</dt>
+<dd>
+<ul>
+<li>De&#287;i&#351;ken tan&#305;mlamam&#305;z&#305; ve de&#287;er ile ili&#351;kilendirilmesini sa&#287;lar</li>
+</ul>
+</dd>
+</dl></section>
             
           </div>
           <div class="presenter_notes">
@@ -2508,9 +2520,10 @@ div.slide table:not(.highlighttable) tr td:first-child {
         <div class="slide">
           <div class="inner">
             
+            <header><h4>Directive</h4></header>
             
-            <section><h2></h2>
-<dl>
+            
+            <section><dl>
 <dt>Nedir?</dt>
 <dd>
 <ul>
@@ -2597,10 +2610,11 @@ div.slide table:not(.highlighttable) tr td:first-child {
         <div class="slide">
           <div class="inner">
             
-            <header><h2>Nedir?</h2></header>
+            <header><h2>Controller</h2></header>
             
             
             <section><dl>
+<dt>Nedir?</dt>
 <dd>
 <ul>
 <li>Angular&rsquo; da scope&rsquo; u &ccedil;o&#287;altmak i&ccedil;in kullan&#305;lan constructor fonksiyon</li>
@@ -2633,7 +2647,7 @@ div.slide table:not(.highlighttable) tr td:first-child {
         <div class="slide">
           <div class="inner">
             
-            <header><h2>Nerde Kullanmal&#305; / Kullanmamal&#305;</h2></header>
+            <header><h2>Nerede Kullanmal&#305; / Kullanmamal&#305;?</h2></header>
             
             
             <section><dl>
@@ -2858,30 +2872,31 @@ div.slide table:not(.highlighttable) tr td:first-child {
         <div class="slide">
           <div class="inner">
             
-            <header><h2>Nedir?</h2></header>
+            <header><h2>Services</h2></header>
             
             
-            <section><ul>
+            <section><dl>
+<dt>Nedir?</dt>
+<dd>
+<ul>
 <li>
 <p>AngularJS servisleri DI kullanarak ba&#287;lant&#305;lar&#305; olu&#351;turan yerle&#351;ik nesnelerdir</p>
 </li>
 <li>
 <p>AngularJS servisleri tembel ve tekil yap&#305;dad&#305;r:</p>
 <ul>
-<li>
-<p>Tembel Yap&#305; - Angular servisi sadece uygulama component&rsquo; i
-    ona ihtiya&ccedil; duydu&#287;unda ba&#351;lat&#305;r</p>
-</li>
-<li>
-<p>Tekillik - Her component angular factory taraf&#305;ndan referans g&ouml;sterilen
-    sadece bir servise ba&#287;l&#305;d&#305;r </p>
-</li>
+<li>Tembel Yap&#305; - Angular servisi sadece uygulama component&rsquo; i
+    ona ihtiya&ccedil; duydu&#287;unda ba&#351;lat&#305;r</li>
+<li>Tekillik - Her component angular factory taraf&#305;ndan 
+    referans g&ouml;sterilen sadece bir servise ba&#287;l&#305;d&#305;r </li>
 </ul>
 </li>
 <li>
 <p>Module i&ccedil;inde $provide kullan&#305;larakta servis olu&#351;turulabilir</p>
 </li>
-</ul></section>
+</ul>
+</dd>
+</dl></section>
             
           </div>
           <div class="presenter_notes">
@@ -2936,20 +2951,26 @@ div.slide table:not(.highlighttable) tr td:first-child {
         <div class="slide">
           <div class="inner">
             
-            <header><h2>Nedir?</h2></header>
+            <header><h2>Dependency Injection</h2></header>
             
             
-            <section><ul>
-<li>
-<p>Genel olarak nesnenin ba&#287;&#305;ml&#305;l&#305;klar&#305;n&#305; tutabilmesi i&ccedil;in kullan&#305;lan &uuml;&ccedil; yol var</p>
-<p>1   -   Dahili olarak tan&#305;mlama</p>
-<p>2   -   Global olarak tan&#305;mlama</p>
-<p>3   -   &#304;htiyac&#305;m&#305;z olan yerde kullanma</p>
-</li>
-<li>
-<p>AngularJS&rsquo; te 3. y&ouml;ntem kullan&#305;l&#305;r</p>
-</li>
-</ul></section>
+            <section><dl>
+<dt>Nedir?</dt>
+<dd>
+<ul>
+<li>Genel olarak nesnenin ba&#287;&#305;ml&#305;l&#305;klar&#305;n&#305; tutabilmesi i&ccedil;in kullan&#305;lan &uuml;&ccedil; yol var</li>
+</ul>
+<pre><code>    1   -   Dahili olarak tan&#305;mlama
+
+    2   -   Global olarak tan&#305;mlama
+
+    3   -   &#304;htiyac&#305;m&#305;z olan yerde kullanma
+</code></pre>
+<ul>
+<li>AngularJS&rsquo; te 3. y&ouml;ntem kullan&#305;l&#305;r</li>
+</ul>
+</dd>
+</dl></section>
             
           </div>
           <div class="presenter_notes">
@@ -3079,20 +3100,13 @@ div.slide table:not(.highlighttable) tr td:first-child {
             <header><h2>Kaynak&ccedil;a</h2></header>
             
             
-            <section><pre><code>    http://www.denizirgin.com/
-
-    https://angularjs.org/
-
-    http://slidedeck.io/
-
-    http://www.bennadel.com/
-
-    http://www.google.com/
-
-    http://www.github.com/
-
-    http://sporto.github.io/
-</code></pre></section>
+            <section><p><a href="http://www.denizirgin.com/">http://www.denizirgin.com/</a> </p>
+<p><a href="https://angularjs.org/">https://angularjs.org/</a></p>
+<p><a href="http://slidedeck.io/">http://slidedeck.io/</a></p>
+<p><a href="http://www.bennadel.com/">http://www.bennadel.com/</a></p>
+<p><a href="http://www.google.com/">http://www.google.com/</a></p>
+<p><a href="http://www.github.com/">http://www.github.com/</a></p>
+<p><a href="http://sporto.github.io/">http://sporto.github.io/</a></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -3234,12 +3248,12 @@ div.slide table:not(.highlighttable) tr td:first-child {
       
         
         <tr id="toc-row-22" class="sub">
-          <th><a href="#slide22">Nedir?</a></th>
+          <th><a href="#slide22">Controller</a></th>
           <td><a href="#slide22">22</a></td>
         </tr>
         
         <tr id="toc-row-23" class="sub">
-          <th><a href="#slide23">Nerde Kullanmal&#305; / Kullanmamal&#305;</a></th>
+          <th><a href="#slide23">Nerede Kullanmal&#305; / Kullanmamal&#305;?</a></th>
           <td><a href="#slide23">23</a></td>
         </tr>
         
@@ -3267,7 +3281,7 @@ div.slide table:not(.highlighttable) tr td:first-child {
       
         
         <tr id="toc-row-28" class="sub">
-          <th><a href="#slide28">Nedir?</a></th>
+          <th><a href="#slide28">Services</a></th>
           <td><a href="#slide28">28</a></td>
         </tr>
         
@@ -3280,7 +3294,7 @@ div.slide table:not(.highlighttable) tr td:first-child {
       
         
         <tr id="toc-row-30" class="sub">
-          <th><a href="#slide30">Nedir?</a></th>
+          <th><a href="#slide30">Dependency Injection</a></th>
           <td><a href="#slide30">30</a></td>
         </tr>
         

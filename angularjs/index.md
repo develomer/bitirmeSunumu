@@ -78,7 +78,7 @@
 
 -    Seed github adresinden local bilgisayara kopyala
 
-		$git clone https://github.com/angular/angular-seed.git
+		$ git clone https://github.com/angular/angular-seed.git
 
 ---
 
@@ -86,11 +86,11 @@
 
 -    Kurulum için seed dizinine geç
 
-		$npm install
+		$ npm install
 
 -    Çalıştır
 
-		$npm start
+		$ npm start
 
 ---    
 
@@ -181,31 +181,36 @@
 
 ## Hadi biraz daha işin içine girelim
 
--	Örnek Bir Kod Parçası
-
-		<html ng-app>
-		<head>
-			<script src="https://ajax.googleapis.com/ajax/libs/
-			angularjs/1.1.5/angular.min.js"></script>
-		</head>
-		<body>
- 			<input type="text" ng-model="isminiz" 
-			placeholder="Adınızı Giriniz"> <br/>
-			Merhaba {{isminiz}}
-		</body>
-		</html>
+Örnek Bir Kod Parçası
+:   
+			<html ng-app>
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/
+				angularjs/1.1.5/angular.min.js"></script>
+			</head>
+			<body>
+ 				<input type="text" ng-model="isminiz" 
+				placeholder="Adınızı Giriniz"> <br/>
+				Merhaba {{isminiz}}
+			</body>
+			</html>
 
 ---
 
 
 ##    Neler Oluyor Orada?
 
-		-	<html ng-app>
-			-	Browser' a AngularJS kullanıldığını belirt		
-			-	Otomatik olarak AngularJS' ı başlat
+ng-app
 
-		-	<div ng-model>
-			-	Değişken tanımlamamızı ve değer ile ilişkilendirilmesini sağlar
+:   
+	-	Browser' a AngularJS kullanıldığını belirt
+	
+	-	Otomatik olarak AngularJS' ı başlat
+
+ng-model
+
+:   
+	-	Değişken tanımlamamızı ve değer ile ilişkilendirilmesini sağlar
 ---
 
 ##    Nasıl Çalışır?
@@ -217,7 +222,7 @@
 
 #    Directive
 
-##
+####	Directive
 
 Nedir?
 :   
@@ -243,14 +248,15 @@ Neden Kullanılır?
 
 #	Controller
 
-##	Nedir?
+##	Controller
+Nedir?
 :   
 
 	-	Angular' da scope' u çoğaltmak için kullanılan constructor fonksiyon
 
 ---
 
-## Nerde Kullanmalı / Kullanmamalı
+## Nerede Kullanmalı / Kullanmamalı?
 
 
 Kullan
@@ -317,34 +323,38 @@ ng-repeat
 
 #    Services
 
-##	Nedir?
+##	Services	
 
--	AngularJS servisleri DI kullanarak bağlantıları oluşturan yerleşik nesnelerdir
+Nedir?
+:   
 
--	AngularJS servisleri tembel ve tekil yapıdadır:
-	-	Tembel Yapı - Angular servisi sadece uygulama component' i
-		ona ihtiyaç duyduğunda başlatır
+	-	AngularJS servisleri DI kullanarak bağlantıları oluşturan yerleşik nesnelerdir
 
-	-	Tekillik - Her component angular factory tarafından referans gösterilen
-		sadece bir servise bağlıdır 
+	-	AngularJS servisleri tembel ve tekil yapıdadır:
+		-	Tembel Yapı - Angular servisi sadece uygulama component' i
+			ona ihtiyaç duyduğunda başlatır
+		-	Tekillik - Her component angular factory tarafından 
+			referans gösterilen sadece bir servise bağlıdır 
 
--	Module içinde $provide kullanılarakta servis oluşturulabilir
+	-	Module içinde $provide kullanılarakta servis oluşturulabilir
 
 ---
 
 #    Dependency Injection
 
-##	Nedir?
+##	Dependency Injection
 
--	Genel olarak nesnenin bağımlılıklarını tutabilmesi için kullanılan üç yol var
+Nedir?
+:   
+	-	Genel olarak nesnenin bağımlılıklarını tutabilmesi için kullanılan üç yol var
 
-	1	-	Dahili olarak tanımlama
+			1	-	Dahili olarak tanımlama
 
-	2	-	Global olarak tanımlama
+			2	-	Global olarak tanımlama
 
-	3	-	İhtiyacımız olan yerde kullanma
+			3	-	İhtiyacımız olan yerde kullanma
 
--	AngularJS' te 3. yöntem kullanılır
+	-	AngularJS' te 3. yöntem kullanılır
 
 ---
 
@@ -368,17 +378,18 @@ ng-repeat
 
 ##    Kaynakça
 		
-		http://www.denizirgin.com/
+<http://www.denizirgin.com/> 
 		
-		https://angularjs.org/
+<https://angularjs.org/>
 
-		http://slidedeck.io/
+<http://slidedeck.io/>
 
-		http://www.bennadel.com/
+<http://www.bennadel.com/>
 		
-		http://www.google.com/
+<http://www.google.com/>
 
-		http://www.github.com/
+<http://www.github.com/>
 
-		http://sporto.github.io/
+<http://sporto.github.io/>
+
 ---
