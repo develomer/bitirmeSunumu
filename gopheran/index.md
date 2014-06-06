@@ -13,13 +13,13 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-##    Neyi Amaçladık
+##    Amaç
 
 - Kaynak Envanteri Yönetimi probleminin küçük bir parçasını çözmeyi amaçlıyoruz
  
 ---
 
-##    Nereden Başladık
+##    Hedef
 
 - Problemin ilk adımı olan güvenli iletişim
 
@@ -27,7 +27,7 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-##    Neler var
+##    Kullanılan Teknolojiler
 
 - Go dili
 
@@ -39,7 +39,7 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-#   App Engine Nedir
+#   App Engine
 
 - Google firmasının web uygulamaları için bir bulut servisi
 
@@ -51,7 +51,7 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-#   Neden App Engine
+#   Avantajları
 
 - Düşük Maliyetli
 
@@ -63,13 +63,13 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-#   App Engine Mimarisi
+#   Mimarisi
 
 ![](images/architecture.png)
 
 ---
 
-#   Veri Depolarken
+#   Veri Depolama
 
 - Google Cloud SQL
 
@@ -94,7 +94,7 @@ Kaynak Envanteri Yönetim Sistemi
 ---
 
 
-##  Neden Go
+##  Go
 
 - 
 
@@ -114,7 +114,7 @@ Kaynak Envanteri Yönetim Sistemi
 
 ---
 
-## Neden AngularJS?
+## AngularJS
 
 - Google destekli
 
@@ -125,6 +125,18 @@ Kaynak Envanteri Yönetim Sistemi
 - Daha az kod kullanarak daha çok iş yapmamızı sağlar
  
 ---
+
+# Teşekkür ederiz
+
+
+## Kaynaklar
+
+
+
+---
+
+
+
 
 
 
